@@ -1,0 +1,165 @@
+/* body */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "KoHo", sans-serif;
+}
+
+h1 {
+    font-family: "KoHo", sans-serif;
+}
+
+h2{
+    font-family: "KoHo", sans-serif;
+}
+
+/* 00d4ff */
+.bg {
+    background-color: #021023;
+
+}
+
+/* nav bar start */
+.nav_title{
+    font-weight: bold;
+    padding-left: 10px;
+    color: white;
+}
+
+.nav_item{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_button{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.nav_button:hover{
+    color: #00FFFF;
+    font-weight: bold;
+}
+
+.nav_button:active{
+    color: #00FFFF;
+}
+/* nav bar end */
+
+/* about page start */
+.about_container{
+    padding: 100px;
+}
+
+.intro_box{
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.intro{
+    font-size: 35px;
+}
+
+.pfp_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pfp{
+    width: 750px;
+    height: 500px;
+}
+
+/* work page start */
+.exp_box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* contact page start */
+.contact_box{
+    color: white;
+}
+
+.contact_form{
+    width: 50%;
+    min-width: 250px;
+}
+
+.form_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lbl_white{
+    color: white;
+}
+
+.contact_head{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact_button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #021023;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+/* footer page start */
+.footer_cont{
+    height: 400px;
+}
+
+/* work section */
+.work_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+.work_image{
+    width: calc(100%/3);
+    height: 340px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.work_image:first-child{
+    margin-left: 0px;
+}
+
+.wrapper{
+    max-width: 1200px;
+}
+
+.carousel{
+    display: flex;
+    font-size: 0px;
+    cursor: pointer;
+    margin-left: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+}
